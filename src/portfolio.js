@@ -50,7 +50,7 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "DEVOPS DEV WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "DevOps dev who wants to explore every tech stack",
   skills: [
     emoji(
       "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
@@ -90,7 +90,7 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "swift",
+      skillName: "rust",
       fontAwesomeClassname: "fab fa-rust"
     },
     {
@@ -229,13 +229,13 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/max.jpg"),
+      image: require("./assets/images/i3wm.png"),
       projectName: "maxwm",
       projectDesc: "A window manager written in go",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://github.com/sanjaix21/maxwm"
+          url: "http://github.com/sanjaix21/"
         }
       ]
    }
