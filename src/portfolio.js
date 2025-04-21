@@ -21,7 +21,7 @@ const illustration = {
 
 const greeting = {
   username: "sanjai",
-  title: "Hi all, I'm Sanjai",
+  title: "Hello, I'm Sanjai",
   subTitle: emoji(
     "A passionate DevOps Engineer 🚀 having an experience of building cli apps with Golang / Rust / Bash and some other cool libraries and frameworks."
   ),
@@ -139,7 +139,7 @@ const educationInfo = {
     },
     {
       schoolName: "GRN Internationals",
-      logo: require("./assets/images/grn.jpg"),
+      logo: require("./assets/images/grn.png"),
       subHeader: "Senior Secondary Education",
       duration: "July 2019 - April 2021",
       //desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
@@ -207,38 +207,38 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
+  title: "Projects",
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/go.jpg"),
+      projectName: "Interpreter Go",
+      projectDesc: "An Interpreter written for monkey language using the Go Programming language",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/"
+          url: "http://github.com/sanjaix21/go-interpreter"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/max.jpg"),
+      projectName: "maxwm",
+      projectDesc: "A window manager written in go",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/"
+          url: "http://github.com/sanjaix21/maxwm"
         }
       ]
-    }
+   }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -301,7 +301,7 @@ const achievementSection = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
@@ -325,7 +325,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -344,7 +344,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -357,7 +357,7 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Resume Section
@@ -370,11 +370,11 @@ const resumeSection = {
 };
 
 const contactInfo = {
-  title: emoji("Contact Me ☎️"),
+  title: emoji("Contact Me"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  number: "+92-8807769776",
+  email_address: "sanjaix21@gmail.com"
 };
 
 // Twitter Section
