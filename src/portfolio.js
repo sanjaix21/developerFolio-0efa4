@@ -20,8 +20,8 @@ const illustration = {
 };
 
 const greeting = {
-  username: "sanjai",
-  title: "Hello, I'm Sanjai",
+  username: "Emad",
+  title: "Hello, I'm Emad",
   subTitle: emoji(
     "A passionate DevOps Engineer 🚀 having an experience of building cli apps with Golang / Rust / Bash and some other cool libraries and frameworks."
   ),
@@ -373,8 +373,8 @@ const contactInfo = {
   title: emoji("Contact Me"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-8807769776",
-  email_address: "sanjaix21@gmail.com"
+  number: "+92-9544946946",
+  email_address: "emadshanavasmk@gmail.com"
 };
 
 // Twitter Section
